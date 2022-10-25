@@ -1,0 +1,94 @@
+body,
+html {
+  background-color: #EBECF0;
+}
+
+body,
+p,
+input,
+select,
+textarea,
+button {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: -0.2px;
+  font-size: 16px;
+}
+
+div {
+  color: #6b6b6b;
+  text-shadow: 1px 1px 1px #FFF;
+}
+
+form {
+  padding: 10px;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.main-form {
+  background-color: #dfdbdb;
+  width: 500px;
+  text-align: center;
+  margin: 80px auto;
+  border-radius: 7px;
+  box-shadow: 5px 5px 20px #BABECC;
+}
+
+.segment {
+  padding: 3px 0;
+  text-align: center;
+}
+
+form a {
+  margin: 5px 0;
+  display: block;
+  font-size: 14px;
+  color: #858585;
+  text-decoration: none;
+  text-align: left;
+}
+
+button,
+input {
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  border-radius: 15px;
+  padding: 12px;
+  background-color: #EBECF0;
+  text-shadow: 1px 1px 0 #FFF;
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  width: 100%;
+  font-size: 16px;
+  color: #696969;
+  text-align: left;
+}
+
+input {
+  margin-right: 8px;
+  box-shadow: inset 2px 2px 5px #b2b9c4, inset -5px -5px 10px #FFF;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+input:focus {
+  box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+
+button {
+  color: #61677C;
+  font-weight: bold;
+  box-shadow: -5px -5px 20px rgb(219, 219, 219), 5px 5px 20px #BABECC;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-weight: 600;
+  width: 100%;
+}
